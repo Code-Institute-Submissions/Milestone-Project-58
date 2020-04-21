@@ -20,10 +20,14 @@ img {
     padding: 0;
     scroll-margin: 0;
     background-color: 
-}
+}   
 
-.card-img-top {
-    margin-top: 50px;
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -39,9 +43,8 @@ img {
 
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
+    padding: 0;
+    margin-right: 0 ;
     font-size: 30px;
     line-height: inherit;
     white-space: nowrap;
@@ -51,6 +54,32 @@ img {
 .bg-light {
     background-color: #ffffff;
 }
+
+
+/*-----team---------*/
+.team {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    margin-top: 50px;
+}
+
+
+/*-------block divider------*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
 
 /*-----------card -----*/
 
@@ -67,23 +96,11 @@ img {
 }
 
 .card-img-top {
-    border-radius: 10px;
-}
-/*-----team---------*/
-.team {
-    padding: 10px;
-    margin-bottom: 20px;
+    border-radius: 40px;
+    margin-top: 0;
 }
 
-/*-------block divider------*/
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align: center;
 }
