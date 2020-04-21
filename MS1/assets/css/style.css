@@ -1,8 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat|Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400i&display=swap');
 
 body {
-    font-family: "Caveat", 'Courier New';
+    font-family: 'Lato', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;      
+
 }
 
 /*--------- Header ------*/
 
+header {
+    color: red;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    scroll-margin: 0;
+    background-color: 
+}
+
+.card-img-top {
+    margin-top: 50px;
+}
+
+
+/*-------------Navbar--------*/
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+/*-----------card -----*/
+
+.card {
+    border: 0;
+    display: block;
+    margin-top: 10px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+/*-----team---------*/
+.team {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*-------block divider------*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
