@@ -2,48 +2,35 @@
 
 body {
     font-family: 'Lato', sans-serif;      
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 /*--------- Header ------*/
 
-header {
-    
-}
-
-/**- img {    
-    margin-left: auto;
-    margin-right: auto;
+.swimming-baby {
     padding: 0;
-    scroll-margin: 0;
-    background-color: 
-}    -*/
-
-.logo {
-    height: 20;
-    width: 20;
+    margin-bottom: 10px;        
 }
+
+
 .container-fluid, 
 .container-lg, 
 .container-md,
- .container-sm,
-  .container-xl {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
+.container-sm,
+.container-xl {
+    width: 100%;   
     margin-right: auto;
     margin-left: auto;
 }
 
-
-}
 /*-------------Navbar--------*/
 
 .navbar {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     border: 0;
-    padding: 0;
-    width: 80%;
+    padding: 0;  
 }
 
 .navbar-brand {
@@ -55,10 +42,26 @@ header {
     white-space: nowrap;
 }
 
-
+.bg-navbar {
+    background-color: #ec081e99;
+}
 .nav-link {
     font-size: 20px;
+} 
+
+ 
+/**--------Our Story******/
+
+p {
+    margin-right: 10%;
+    margin-left: 10%;
 }
+
+#ourstory {
+    background-color: #fdc725b8;
+    margin-bottom: 10px;
+}
+
 
 /*-----team---------*/
 .team {
@@ -66,10 +69,12 @@ header {
     margin-bottom: 20px;
 }
 
+.bg-team {    
+    margin-bottom: 10px;
+}
 .card-img-top {
     margin-top: 50px;
 }
-
 
 /*-------block divider------*/
 
@@ -113,12 +118,14 @@ header {
 /*-------footer-----*/
 
 footer {
-    height: 150px;
+    height: 10px;     
 }
+
 
 
 .socials {
     text-align: center;  
+    background-color: #007bffb3;
 }
 
 .socials li {
@@ -129,4 +136,5 @@ footer {
     font-size: 50px;
     margin: 10px;
     padding: 10px;       
+    color: #bd2130;
 }
