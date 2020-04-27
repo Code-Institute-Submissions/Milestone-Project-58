@@ -2,33 +2,14 @@
 
 body {
     font-family: 'Lato', sans-serif;      
-    margin-right: 5%;
-    margin-left: 5%;
+    background-color:#e9ecef94;
+  
 }
 
-/*--------- Header ------*/
-
-.swimming-baby {
-    padding: 0;
-    margin-bottom: 10px;        
-}
-
-
-.container-fluid, 
-.container-lg, 
-.container-md,
-.container-sm,
-.container-xl {
-    width: 100%;   
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/*-------------Navbar--------*/
+/***--- Navbar --**/
 
 .navbar {
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin: 0px;    
     border: 0;
     padding: 0;  
 }
@@ -43,89 +24,79 @@ body {
 }
 
 .bg-navbar {
-    background-color: #ec081e99;
+    background-color: white;
 }
+
 .nav-link {
     font-size: 20px;
-} 
+ } 
 
- 
-/**--------Our Story******/
-
-p {
-    margin-right: 10%;
-    margin-left: 10%;
+.col-12.nav-header {
+    padding: 0px;
+    
 }
+
+.my-nav .dropdown-menu .swimming {
+    color: #bd2130;
+}
+
+.my-nav .dropdown-menu .classroom {
+    color: #d39e00;
+}
+
+.my-nav .dropdown-menu .ballgames {
+    color: #007bff;
+}
+
+.navbar-nav .dropdown-menu {    
+    background-color: #e9ecef94;
+}
+
+/*---baby images --*/
+
+
+
+/*--- Our story --*/
 
 #ourstory {
-    background-color: #fdc725b8;
-    margin-bottom: 10px;
-}
-
-
-/*-----team---------*/
-.team {
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.bg-team {    
-    margin-bottom: 10px;
-}
-.card-img-top {
-    margin-top: 50px;
+    background-color: #ffff0047;    
+     width: 90%;
+    border-radius: 30px;
 }
 
 /*-------block divider------*/
 
 .block-divider {
-    width: 75px;
+    width: 300px;
     height: 5px;
     border: 0;
     background-color: #444;
 }
 
-.block-divider--orange {
-    background-color: #f05f40;
+.block-divider--blue {
+    background-color: #0062cc9e;
 }
 
-
-/*-----------card -----*/
-
-.card {
-    border: 0;   
-    margin-top: 10px;
+.block-divider--red {
+    background-color: #dc3545c4;
 }
 
-.card-img, 
-.card-img-bottom, 
-.card-img-top {
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 50%;
+.block-divider--yellow {
+    background-color: #ffff00d6;
 }
 
-.card-img-top {
-    border-radius: 40px;
-    margin-top: 0;
+/*---- Team --**/
+
+.card-deck, .mx-auto {
+    width: 70%;
 }
 
-.card-text:last-child {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-/*-------footer-----*/
-
-footer {
-    height: 10px;     
-}
-
+/**--Footer -**/
 
 
 .socials {
     text-align: center;  
-    background-color: #007bffb3;
+    background-color: #e9ecef94;
 }
 
 .socials li {
@@ -137,4 +108,8 @@ footer {
     margin: 10px;
     padding: 10px;       
     color: #bd2130;
+}
+
+.fa-facebook:before {    
+    color: blue;
 }
