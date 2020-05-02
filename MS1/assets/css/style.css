@@ -52,16 +52,25 @@ body {
     background-color: #e9ecef94;
 }
 
-/*---baby images --*/
-
+/*---Carousel --*/
 
 
 /*--- Our story --*/
 
 #ourstory {
     background-color: #ffff0047;    
-     width: 90%;
+    width: 90%;
     border-radius: 30px;
+}
+
+#overview {
+    background-color: lightblue;
+    width: 90%;
+    border-radius: 30px;
+}
+
+hr {
+    border-top: 0px;
 }
 
 /*-------block divider------*/
@@ -87,27 +96,96 @@ body {
 
 /*---- Team --**/
 
+.card {
+    border: 0px;    
+}
 .card-deck, .mx-auto {
+    width: 100%;
+}
+
+.card-body {
+    padding: 0px;
+    letter-spacing: 4px;
+}
+
+
+.card-deck .card {  
+    margin-right: 60px;
+    margin-bottom: 50px;
+    margin-left: 60px;    
+}
+
+.card-img-top {
+    max-width: 100%;
+    flex-shrink: 0;
     width: 70%;
 }
 
-/**--Footer -**/
-
-
-.socials {
-    text-align: center;  
+.card-deck .card .card-body p {
+    font-size: 15px;
+}
+.swimming-teacher {
+    color:black;
     background-color: #e9ecef94;
 }
 
-.socials li {
-    display: inline;
+
+.classroom-teacher {
+   color: black; 
+   background-color: #e9ecef94;
 }
 
-.socials i {
+.ballgame-teacher {
+    color: black;
+    background-color: #e9ecef94;
+}
+/**--Footer -**/
+
+footer {
+    color: #dc3545;
+    background-color: #e9ecef94;
+    position: relative;
+}
+
+.footer-content {
+    border: 0px;
+    height: 200px;
+    display: flex;
+}
+.footer-section {
+    flex: 1;
+    border: 0px;
+    text-align: center;
+}
+
+
+
+.footer-content .footer-section h3 span {
+    color: blue;
+}
+
+.footer-content .footer-section p {
+    margin-bottom: 0px;
+    color: black;
+    font-size: 15px;
+}
+
+.footer-content .contact span {
+    display: block;
+    color: black;
+    font-size: 15px;
+}
+
+.footer-section .socials {
+    text-align: center;
+}
+
+.footer-content .socials span {
+    color: blue;
+}
+.footer-content .socials a {
     font-size: 50px;
-    margin: 10px;
-    padding: 10px;       
-    color: #bd2130;
+
 }
 
 .fa-facebook:before {    
