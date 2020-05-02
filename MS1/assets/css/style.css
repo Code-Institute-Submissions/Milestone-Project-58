@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
 
 body {
-    font-family: 'Lato', sans-serif;      
-    background-color:#e9ecef94;
-  
+    font-family: 'Merienda', cursive;    
+    background-color:#e9ecef94; 
 }
 
 /***--- Navbar --**/
 
 .navbar {
-    margin: 0px;    
+    margin-bottom: 10px;
     border: 0;
     padding: 0;  
 }
@@ -31,9 +32,9 @@ body {
     font-size: 20px;
  } 
 
-.col-12.nav-header {
-    padding: 0px;
-    
+.nav-header {
+    padding: 0px;    
+    margin-bottom: 30px;
 }
 
 .my-nav .dropdown-menu .swimming {
@@ -52,8 +53,29 @@ body {
     background-color: #e9ecef94;
 }
 
+/*---home page --*/
+
+.welcome {
+    margin-bottom: 50px;
+}
+
+.angel{
+    color: blue;
+}
+
+.haven {
+    color: red;
+}
+
+h4 {
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+}
 /*---Carousel --*/
 
+#carousel-classes {
+    margin-bottom: 50px;
+}
 
 /*--- Our story --*/
 
@@ -149,16 +171,14 @@ footer {
 
 .footer-content {
     border: 0px;
-    height: 200px;
-    display: flex;
+    height: 100px;
+    display: flex;    
 }
 .footer-section {
     flex: 1;
     border: 0px;
-    text-align: center;
+    
 }
-
-
 
 .footer-content .footer-section h3 span {
     color: blue;
@@ -180,6 +200,11 @@ footer {
     text-align: center;
 }
 
+.footer-section .about {
+    text-align: center;
+}
+
+
 .footer-content .socials span {
     color: blue;
 }
@@ -188,6 +213,3 @@ footer {
 
 }
 
-.fa-facebook:before {    
-    color: blue;
-}
