@@ -67,14 +67,32 @@ body {
     color: red;
 }
 
-h4 {
-    margin-bottom: 150px;
+h4 {   
     padding-bottom: 50px;
 }
+
 /*---Carousel --*/
 
 #carousel-classes {
     margin-bottom: 50px;
+}
+
+#carousel-classes1 {
+    margin-bottom: 50px;
+}
+
+#carousel-classes2 {
+    margin-bottom: 50px;
+}
+
+/*----Swimming Class---**/
+
+h2 {
+    color: #dc3545c4;
+}
+
+#swimming-class {
+    line-height: 20px;
 }
 
 /*--- Our story --*/
@@ -166,50 +184,28 @@ hr {
 footer {
     color: #dc3545;
     background-color: #e9ecef94;
-    position: relative;
+    position: relative;    
 }
 
-.footer-content {
+.footer-section {   
     border: 0px;
-    height: 100px;
-    display: flex;    
-}
-.footer-section {
-    flex: 1;
-    border: 0px;
-    
+    text-align: center;
 }
 
-.footer-content .footer-section h3 span {
+.footer-section h5 span {
     color: blue;
-}
-
-.footer-content .footer-section p {
-    margin-bottom: 0px;
-    color: black;
-    font-size: 15px;
-}
-
-.footer-content .contact span {
-    display: block;
-    color: black;
-    font-size: 15px;
 }
 
 .footer-section .socials {
     text-align: center;
 }
 
-.footer-section .about {
-    text-align: center;
-}
 
-
-.footer-content .socials span {
+ .socials span {
     color: blue;
 }
-.footer-content .socials a {
-    font-size: 50px;
+.socials a {
+    font-size: 30px;
 
 }
 
