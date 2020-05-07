@@ -55,66 +55,55 @@
 		</div>
 	</header>
 
-	<!---welcome-->
-	<div class="container">
-		<div class="row">
-			<div class="col-12 mt-4">
-				<h2 class="text-center contact-header">We'd Love to Hear from You!</h2>
-			</div>
-		</div>
-	</div>
-
 	<section>
-		<div class="contact-us">
-			<!--- form-->
-			<form>
-				<div class="row">
-					<div class="col-sm-12 col-md-4">
-						<div class="form-group">
-							<label for="name">Name:</label>
-							<input type="text" class="form-control" id="name" placeholder="first name">
+        <div class="container">	
+            <div class="row">            
+                <div class="col-sm-12 col-md-6">
+
+                <!---- Form -->
+
+		        	<form class="mt-5">			
+                        <h4 class="contact-header">We'd Love to hear from you</h4>
+                       	<div class="form-group">
+							<label for="fname">Fist Name:</label>
+							<input type="text" class="form-control" id="fname" placeholder="first name">
                         </div>
+                            <div class="form-group">
+						    	<label for="lname">Last Name:</label>
+							    <input type="text" class="form-control" id="lname" placeholder="first name">
+                            </div>
 							<div class="form-group">
 								<label for="phone">Contact Number:</label>
 								<input type="text" class="form-control" id="phone" placeholder="phone number">
-                        </div>
-								<div class="form-group">
+                            </div>
+							<div class="form-group">
 									<label for="emailaddress">Email Address:</label>
-									<input type="text" class="form-control" id="emailaddress" placeholder="emailaddress">
-                        </div>
-									<div class="form-group">
+									<input type="text" class="form-control" id="emailaddress" placeholder="email address">
+                            </div>
+                        	<div class="form-group">
 										<label for="inquiry">Inquiry or Comment:</label>
-										<textarea class="form-control" id="inquiry" rows="3"></textarea>
-									</div>
-								</div>
-							</div>
-			</form>
+										<textarea class="form-control" id="inquiry" rows="5"></textarea>
+							</div>			
+                            <button type="button" class="btn btn-danger mt-2">SEND</button>
+		    	    </form>
+                </div>
 
-			<!---address-->
-			
-				<div class="row">
-					<div class="col-sm-12 col-md-4">
-						<h3>Where Happiness Begins! </h3>
-						<p>Blackwood Ln, Portmarnock</p>
-						<p>Co. Dublin</p>
-						<br>
-						<p>Phone Number: +353 83 052 0460</p>
-						<p>Email Address : angelshaven@gmail.com </p>
-					</div>
-				</div>
-			
-
-			<!----Map-->
-			<div class="row">
-            <div class="col-sm-12 col-md-4">
-				<h3>Our Location</h3>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.90045732921!2d-6.143638584020914!3d53.43448807580633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671aeb5ea515d1%3A0xf696fa3e6e24f0fb!2sBlackwood%20Ln%2C%20Portmarnock%2C%20Co.%20Dublin%2C%20Ireland!5e0!3m2!1sen!2sus!4v1588721180947!5m2!1sen!2sus"
-					width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-					tabindex="0"></iframe>
-                    </div>
-			</div>
-		</div>
+    <!------Address---->    
+                
+                <div class="col-sm-12 col-md-6 mt-5 address-map">
+                    <h4 class="address">Where Happiness Begins!</h4>
+                    <p>Blackwood Ln, Portmarnock</p>
+                    <p>Co. Dublin </p>
+                    <p class="contact">Phone Number: +353-83-052-0460</p>
+                    <p class="contact">Email Address: angelshaven@gmail.com </p>
+                    <br>
+                
+    <!----google map-->      
+                    <h4 class="location">Our Location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.9004573291627!2d-6.143638584714529!3d53.43448807580727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671aeb5ea515d1%3A0xf696fa3e6e24f0fb!2sBlackwood%20Ln%2C%20Portmarnock%2C%20Co.%20Dublin!5e0!3m2!1sen!2sie!4v1588890710235!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mb-3"></iframe>
+                </div>
+            </div>
+        </div>
 	</section>
 
 
@@ -167,4 +156,4 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
-</html>
+</html> 

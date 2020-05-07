@@ -179,6 +179,31 @@ hr {
     color: black;
     background-color: #e9ecef94;
 }
+
+/**--contact us--**/
+
+.form-group {
+    margin: 0px;
+}
+
+.contact-header {
+    padding: 0px;
+    color:#dc3545c4;
+}
+
+.address {
+    padding: 0px;
+    color: #ffc107;
+}
+
+.location {
+    padding: 0px;
+    color: #007bff;
+}
+
+.address-map {
+    text-align: center;
+}
 /**--Footer -**/
 
 footer {
