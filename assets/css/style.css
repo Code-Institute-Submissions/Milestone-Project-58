@@ -1,13 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
 
-
 body {
     font-family: 'Merienda', cursive;    
     background-color:#e9ecef94;
 }
 
-/***--- Navbar --**/
+/**--- Navbar --**/
 
 .navbar {
     margin-bottom: 10px;
@@ -53,7 +52,7 @@ body {
     background-color: #e9ecef94;
 }
 
-/*---home page --*/
+/*---home page --**/
 
 .welcome {
     margin-bottom: 30px;
@@ -71,7 +70,7 @@ h4 {
     padding-bottom: 50px;
 }
 
-/*---Carousel --*/
+/**--Carousel --**/
 
 #carousel-classes {
     margin-bottom: 50px;
@@ -85,7 +84,7 @@ h4 {
     margin-bottom: 50px;
 }
 
-/*----Swimming Class---**/
+/**--Swimming Class--**/
 
 h2 {
     color: #dc3545c4;
@@ -95,33 +94,38 @@ h2 {
     line-height: 20px;
 }
 
-/*--- Our story --*/
+/**-- Our story --**/
 
 #ourstory {
     background-color: #ffff0047;    
     width: 90%;
     border-radius: 30px;
+    padding: 20px;    
 }
 
 #overview {
     background-color: lightblue;
     width: 90%;
     border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
+}
+
+#team-member {
+    padding-bottom: 20px;
 }
 
 hr {
     border-top: 0px;
 }
 
-/*-------block divider------*/
+/**--block divider--**/
 
 .block-divider {
     width: 300px;
     height: 5px;
     border: 0;
     background-color: #444;
+    margin-bottom: 3rem;
 }
 
 .block-divider--blue {
@@ -136,20 +140,21 @@ hr {
     background-color: #ffff00d6;
 }
 
-/*---- Team --**/
+/**-- Team --**/
 
 .card {
     border: 0px;    
 }
+
 .card-deck, .mx-auto {
     width: 100%;
+    text-align: center;
 }
 
 .card-body {
     padding: 0px;
     letter-spacing: 4px;
 }
-
 
 .card-deck .card {  
     margin-right: 60px;
@@ -165,12 +170,13 @@ hr {
 
 .card-deck .card .card-body p {
     font-size: 15px;
+
 }
+
 .swimming-teacher {
     color:black;
     background-color: #e9ecef94;
 }
-
 
 .classroom-teacher {
    color: black; 
@@ -206,12 +212,18 @@ hr {
 .address-map {
     text-align: center;
 }
+
 /**--Footer -**/
 
 footer {
     color: #dc3545;
     background-color: #e9ecef94;
     position: relative;    
+}
+
+footer i {
+    font-size: 30px;
+    text-align: center;
 }
 
 .footer-about span {
@@ -232,7 +244,7 @@ footer {
 }
 
 .footer-text {
-    color: black;
+    color: blue;
     margin-bottom: 0px;
 }
 
@@ -240,13 +252,20 @@ footer {
     color: blue;
 }
 
- .socials span {
+ .socials {
     color: blue;
+    padding-top: 20px;
 }
+
 .socials a {
     font-size: 30px;
 }
 
 .instagram {
     color: red;
+    padding-left: 20px;
+}
+
+.fa-facebook {
+    padding-right: 20px;
 }

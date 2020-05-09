@@ -18,7 +18,7 @@
 	<header class="container-fluid">
 		<div class="row">
 			<div class="col-12 nav-header">
-				<nav class="navbar my-nav navbar-expand-lg bg-navbar navbar-light">
+				<nav class="navbar my-nav navbar-expand-lg bg-navbar navbar-light fixed-top">
 					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -89,8 +89,8 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="team text-center mt-3">Meet Our Team</h2>
-				<hr class="block-divider block-divider--yellow mb-3" />
+				<h2 class="team text-center" id="team-member">Meet Our Team</h2>
+				<hr class="block-divider block-divider--yellow" />
 			</div>
 		</div>
 		<div class="row">
@@ -119,9 +119,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<hr class="block-divider block-divider--blue" />
+		</div>		
 	</section>
+    <hr class="block-divider block-divider--blue" />
 
 <!------Class Preview----->
 
@@ -160,33 +160,38 @@
     
 	<!------------Footer-->
 
-	 <footer>
+	<footer>
 		<div class="container">
 			<div class="row">                
-                <div class="col-sm-12 col-md-6">
-                    <div class="footer-about">
-                        <h3 class="text-center mt-3"><span>Angel's</span> Haven</h3>
-                        <p class="text-center footer-text">Blackwood Ln, Portmarnock</p>
-                        <p class="text-center footer-text">Co. Dublin</p>
-                        <p class="text-center footer-text contact"><i class="fas fa-phone-alt"></i> +356-83-052-0460</p>  
-                        <p class="text-center footer-text contact"><i class="fas fa-envelope-square"></i> angelshaven@gmail.com</p>                          
+                <div class="col-sm-12 col-md-3">
+                    <div class="footer-about mb-3">      
+                        <p class="text-center"><i class="fas fa-map-marker-alt"></i></p>                                  
+                        <p class="text-center footer-text"> Blackwood Ln, Portmarnock Co. Dublin</p>                   
                     </div>
-                   </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                        <p class="text-center"><i class="fas fa-phone-alt"></i></p>
+                        <p class="text-center footer-text contact mb-3"> +356-83-052-0460</p> 
+                </div>   
 
-				<div class="col-sm-12 col-md-6">
-					<div class="footer-section socials">
-						<div class="socials">
-							<h5 class="mt-3"> <span>FOLLOW </span>US </h5>
+                 <div class="col-sm-12 col-md-3">
+                        <p class="text-center"><i class="fas fa-envelope-square"></i></p>
+                        <p class="text-center footer-text contact mb-3"> angelshaven@gmail.com</p> 
+                </div>  
+
+				<div class="col-sm-12 col-md-3">
+					<div class="footer-section">											
 							<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
 							<a href="https://www.instagram.com"
 								target="_blank"><i class="fab fa-instagram-square instagram"></i></a>
-						</div>
+                            <p class="text-center socials"> Follow Us</p>    
+					
 					</div>
 				</div>
             
 			</div>
 		</div>
-	</footer> 
+	</footer>
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
