@@ -26,7 +26,7 @@
   </button>
 
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto">
+							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
 									<a class="nav-link" href="index.html">Home
 										<span class="sr-only">(current)</span></a>
@@ -56,62 +56,76 @@
 	</header>
 
 	<section>
-        <div class="container-fluid">	
-            <div class="row">            
-                <div class="col-sm-12 col-md-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="contact-header text-center mt-5">We'd Love to hear from you!</h2>
+				</div>
+			</div>
+		</div>
+         <hr class="block-divider block-divider--blue mt-5" />
+		<div class="container-fluid">
+			<div class="row" id="contact-us">
 
-                <!---- Form -->
 
-		        	<form class="mt-5">			
-                        <h4 class="contact-header">We'd Love to hear from you</h4>
-                       	<div class="form-group">
-							<label for="fname">Fist Name:</label>
-							<input type="text" class="form-control" id="fname" placeholder="first name">
+				<!------Address---->
+
+				<div class="col-sm-12 col-md-6 col-lg-4 address-map">
+					<h4 class="address mt-5">Where Happiness Begins!</h4>
+					<p class="footer-text"> <i class="fas fa-map-marker-alt"></i> Blackwood Ln, Portmarnock
+						Co. Dublin </p>
+					<p class="contact"><i class="fas fa-phone-alt"></i> +353-83-052-0460</p>
+					<p class="contact"><i class="fas fa-envelope-square"></i> angelshaven@gmail.com </p>
+					<br>
+                     
+					<!----google map-->
+                  
+					<div class="map">
+						<iframe class="col-sm-12"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.900457329216!2d-6.143638584020864!3d53.43448807580633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671aeb5ea515d1%3A0xf696fa3e6e24f0fb!2sBlackwood%20Ln%2C%20Portmarnock%2C%20Co.%20Dublin!5e0!3m2!1sen!2sie!4v1589123262894!5m2!1sen!2sie"
+							height="300" frameborder="0" style="border:0;" allowfullscreen=""
+							aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+             
+
+				<div class="col-sm-12 col-md-6 col-lg-4 form-content">
+
+					<!---- Form -->
+
+					<form class="container-fluid">
+
+						<div class="form-group">
+							<h4 class="message-header mt-5">Send Us a Message:</h4>
+							<label for="name">Your Name:</label>
+							<input type="text" class="form-control" id="name" placeholder="Full Name">
                         </div>
-                            <div class="form-group">
-						    	<label for="lname">Last Name:</label>
-							    <input type="text" class="form-control" id="lname" placeholder="first name">
-                            </div>
 							<div class="form-group">
-								<label for="phone">Contact Number:</label>
-								<input type="text" class="form-control" id="phone" placeholder="phone number">
+								<label for="phone">Your Phone Number:</label>
+								<input type="text" class="form-control" id="phone" placeholder="Phone Number">
                             </div>
-							<div class="form-group">
-									<label for="emailaddress">Email Address:</label>
-									<input type="text" class="form-control" id="emailaddress" placeholder="email address">
+								<div class="form-group">
+									<label for="emailaddress">Your Email:</label>
+									<input type="text" class="form-control" id="emailaddress" placeholder="Email Address">
                             </div>
-                        	<div class="form-group">
+									<div class="form-group">
 										<label for="inquiry">Inquiry or Comment:</label>
-										<textarea class="form-control" id="inquiry" rows="5"></textarea>
-							</div>			
-                            <button type="button" class="btn btn-danger mt-2">SEND</button>
-		    	    </form>
-                </div>
+										<textarea class="form-control" id="inquiry" rows="6"></textarea>
+									</div>
+									<button type="button" class="btn btn-danger mt-2">SEND</button>
+					</form>
+				</div>
+			</div>
+		</div>
 
-    <!------Address---->    
-                
-                <div class="col-sm-12 col-md-6 mt-5 address-map">
-                    <h4 class="address">Where Happiness Begins!</h4>
-                    <p>Blackwood Ln, Portmarnock</p>
-                    <p>Co. Dublin </p>
-                    <p class="contact">Phone Number: +353-83-052-0460</p>
-                    <p class="contact">Email Address: angelshaven@gmail.com </p>
-                    <br>
-                
-    <!----google map-->      
-                    <h4 class="location">Our Location</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.9004573291627!2d-6.143638584714529!3d53.43448807580727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671aeb5ea515d1%3A0xf696fa3e6e24f0fb!2sBlackwood%20Ln%2C%20Portmarnock%2C%20Co.%20Dublin!5e0!3m2!1sen!2sie!4v1588890710235!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mb-3"></iframe>
-                </div>
-            </div>
-        </div>
 	</section>
+     <hr class="block-divider block-divider--yellow mt-5" />
 
-
-	<!------Ending Motto-->
+	<!--Ending Motto-->
 
 	<div class="container-fluid text-center">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12 ending-motto">
 				<h4 class="text-center">
 					"A moment lasts all of a second, but the memory lives on forever"
 				</h4>
@@ -119,38 +133,40 @@
 		</div>
 	</div>
 
+<hr class="block-divider block-divider--red mb-5" />
+
 
 	<!------------Footer-->
 
 	<footer>
 		<div class="container">
-			<div class="row">                
-                <div class="col-sm-12 col-md-3">
-                    <div class="footer-about mb-3">      
-                        <p class="text-center"><i class="fas fa-map-marker-alt"></i></p>                                  
-                        <p class="text-center footer-text"> Blackwood Ln, Portmarnock Co. Dublin</p>                              
-                    </div>
-                   </div>
-                <div class="col-sm-12 col-md-3">
-                        <p class="text-center"><i class="fas fa-phone-alt"></i></p>
-                        <p class="text-center footer-text contact mb-3"> +356-83-052-0460</p> 
-                </div>   
-
-                 <div class="col-sm-12 col-md-3">
-                        <p class="text-center"><i class="fas fa-envelope-square"></i></p>
-                        <p class="text-center footer-text contact mb-3"> angelshaven@gmail.com</p> 
-                </div>  
-
+			<div class="row">
 				<div class="col-sm-12 col-md-3">
-					<div class="footer-section">											
-							<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-							<a href="https://www.instagram.com"
-								target="_blank"><i class="fab fa-instagram-square instagram"></i></a>
-                            <p class="text-center socials"> Follow Us</p>    
-					
+					<div class="footer-about mb-3">
+						<p class="text-center"><i class="fas fa-map-marker-alt"></i></p>
+						<p class="text-center footer-text"> Blackwood Ln, Portmarnock Co. Dublin</p>
 					</div>
 				</div>
-            
+				<div class="col-sm-12 col-md-3">
+					<p class="text-center"><i class="fas fa-phone-alt"></i></p>
+					<p class="text-center footer-text contact mb-3"> +356-83-052-0460</p>
+				</div>
+
+				<div class="col-sm-12 col-md-3">
+					<p class="text-center"><i class="fas fa-envelope-square"></i></p>
+					<p class="text-center footer-text contact mb-3"> angelshaven@gmail.com</p>
+				</div>
+
+				<div class="col-sm-12 col-md-3">
+					<div class="footer-section">
+						<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.instagram.com"
+							target="_blank"><i class="fab fa-instagram-square instagram"></i></a>
+						<p class="text-center socials"> Follow Us</p>
+
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</footer>
@@ -160,4 +176,4 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
-</html> 
+</html>

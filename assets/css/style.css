@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Merienda', cursive;    
-    background-color:#e9ecef94;
+    background-color:#e9ecef94;    
 }
 
 /**--- Navbar --**/
@@ -49,7 +49,7 @@ body {
 }
 
 .navbar-nav .dropdown-menu {    
-    background-color: #e9ecef94;
+    background-color: f8f9fa;
 }
 
 /*---home page --**/
@@ -70,7 +70,22 @@ h4 {
     padding-bottom: 50px;
 }
 
-/**--Carousel --**/
+/**--Feedback--**/
+
+.feedback {
+    color:blue;
+}
+
+#feedback-content {
+    font-size: 12px;    
+}
+
+.feedback-images {
+    border-radius: 20px;
+}
+
+
+/**--Carousel--**/
 
 #carousel-classes {
     margin-bottom: 50px;
@@ -84,14 +99,22 @@ h4 {
     margin-bottom: 50px;
 }
 
-/**--Swimming Class--**/
+/**--Classes--**/
 
 h2 {
     color: #dc3545c4;
 }
 
-#swimming-class {
+#classes {
     line-height: 20px;
+}
+
+.classroom-header {
+    color: #d39e00;
+}
+
+.ballgame-header {
+    color: #007bff;
 }
 
 /**-- Our story --**/
@@ -190,18 +213,44 @@ hr {
 
 /**--contact us--**/
 
+form {
+    padding: 0px;
+    border-color: gray;
+    border-style: double;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.form-content {
+    padding: 0px;
+}
+
 .form-group {
-    margin: 0px;
+    margin-bottom: 20px;        
 }
 
 .contact-header {
     padding: 0px;
     color:#dc3545c4;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
 }
+
+#contact-us {
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
 
 .address {
     padding: 0px;
-    color: #ffc107;
+    color: #dc3545c4;
+    margin-bottom: 20px;
+}
+
+.message-header {
+    color: #dc3545c4;    
 }
 
 .location {
@@ -210,7 +259,25 @@ hr {
 }
 
 .address-map {
-    text-align: center;
+    text-align: left;
+    border-color: gray;
+    border-style: double;
+    background-color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.message-header {
+    padding-bottom: 10px;   
+}
+
+.btn-danger {
+    margin-bottom: 10px;
+}
+
+.comment-header {
+      margin-bottom: 20px;          
+      margin-top: 110px;
 }
 
 /**--Footer -**/
@@ -219,6 +286,7 @@ footer {
     color: #dc3545;
     background-color: #e9ecef94;
     position: relative;    
+    padding-top: 20px;
 }
 
 footer i {
@@ -245,11 +313,21 @@ footer i {
 
 .footer-text {
     color: blue;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-text i {
+    color: red;
+    font-size: 30px;
 }
 
 .contact {
     color: blue;
+    margin-bottom: 20px;
+}   
+
+.contact i {
+    color: red;
 }
 
  .socials {
@@ -268,4 +346,12 @@ footer i {
 
 .fa-facebook {
     padding-right: 20px;
+}
+
+/**--Ending motto--**/
+
+.ending-motto {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
