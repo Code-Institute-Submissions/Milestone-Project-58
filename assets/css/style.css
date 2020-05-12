@@ -78,7 +78,9 @@ h4 {
 }
 
 #feedback-content {
-    font-size: 12px;    
+    font-size: 12px;   
+    padding-left: 10px;
+    padding-right: 10px; 
 }
 
 .feedback-images {
@@ -88,6 +90,11 @@ h4 {
 
 
 /**--Carousel--**/
+
+#carousel {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 #carousel-classes {
     margin-bottom: 50px;
@@ -105,6 +112,11 @@ h4 {
 
 h2 {
     color: #dc3545c4;
+}
+
+#class-image {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #classes {
