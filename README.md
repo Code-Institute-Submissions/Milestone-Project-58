@@ -1,4 +1,4 @@
-**# Angel's Haven**
+# Angel's Haven
 
 To view the live version of the website please click [AngelsHaven](https://gideongannaban.github.io/Milestone-Project-1/index.html)
 
@@ -6,7 +6,7 @@ My inspiration in making this project is our 22 months old daughter. We’re not
 Thus we’ve decided to look for a weekend activity where she can play and interact with other kids and at the same time to learn new things. We found some interesting classes but unfortunately they were all in different locations. 
 Then I came up with an idea, why not offer the most in demand classes in one location. 
 
-**# UX**
+# UX
 
 Who is the target market?
 
