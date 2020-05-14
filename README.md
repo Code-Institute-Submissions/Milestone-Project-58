@@ -27,9 +27,9 @@ As a **parent or childminder**:
 # Wireframe
  I used Balsamiq Wireframe 4 to create the framework of the website. There have been several modifications as the project progressed. 
 
- * Desktop View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/Desktop.bmpr)
- * Ipad View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/Ipad.bmpr)
- * Mobile View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/Mobile.bmpr)
+ * Desktop View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Desktop.bmpr)
+ * Ipad View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Ipad.bmpr)
+ * Mobile View Wireframe - [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Mobile.bmpr)
 
 # Features
 
