@@ -4,8 +4,9 @@
 
 To view the live version of the website please click [AngelsHaven](https://gideongannaban.github.io/Milestone-Project-1/index.html)
 
-My inspiration in making this project is our 22 months old daughter. We’re not putting her to creche since I’m working from home so pretty much I look after her during the day and wife when she comes home after work. 
-Thus we’ve decided to look for a weekend activity where she can play and interact with other kids and at the same time to learn new things. We found some interesting classes but unfortunately they were all in different locations. 
+My inspiration in making this project is our 22 months old daughter. We’re not putting her to creche since I’m working from home so pretty much I look after her during the day and my wife when she comes home after work. 
+Thus, we’ve decided to look for a weekend activity where she can play and interact with other kids and at the same time learn new things. We found some interesting classes but unfortunately they were all in different locations. 
+This means we can only chose one since going to other venues will take much of our time and effort. 
 Then I came up with an idea, why not offer the most in demand classes in one location. 
 
 # UX
@@ -24,10 +25,10 @@ As a **parent or childminder**:
 
 # Design
 
- All through out the pages we've used 3 colors ( blue, yellow and red) and these were designated for each class offered.  
+ All through out the pages we've used 3 colors ( blue, yellow and red) and these were designated for each class offered. 
 
 # Wireframe
- I used Balsamiq Wireframe 4 to create the framework of the website. There have been several modifications as the project progressed. 
+ I used Balsamiq Wireframe 4 to create the framework for the website. There have been several modifications as the project progressed but below are the final outputs:
 
  * Desktop [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Desktop%20View.pdf)
  * Ipad [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Ipad%20View.pdf)
@@ -73,7 +74,7 @@ The website's responsive layout was tested using the following:
 * And finally, with the help of CI slack Community through the guidance of fellow students, alumni and CI Instructors
 
 ### Bug/Error Fixed
- An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page the footer thus placing the footer close to the center of the page.
+ An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page and the footer thus placing the footer close to the center of the page.
  This was fixed by adding more content and margin thus pushing the footer section at the bottom of the page.
 
  # Deployment
@@ -81,7 +82,7 @@ The website's responsive layout was tested using the following:
 #### This project was deployed to [Github Pages](https://github.com/gideongannaban/Milestone-Project-1) by following below procedure:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/gideongannaban/Milestone-Project-1)
-2. At the upper right of the Repository Page, locate the "Settings" Button.
+2. At the upper right corner of the Repository Page, click on the "Settings" Button.
 3. In the Settings Page, scroll down until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page should automatically refresh when you select the Master Branch.
@@ -92,13 +93,21 @@ The website's responsive layout was tested using the following:
 1. In the [repository page](https://github.com/gideongannaban/Milestone-Project-1), click on the Clone or Download button ( right beside the Gitpod button).
 2. To clone the repository using HTTPS, copy the link in the "Clone with HTTPS" 
 3. Open Git Bash. 
-    * Make sure Git Bash App is downloaded
+    * Make sure Git Bash App is downloaded in your laptop/desktop
     * Paste the Cloned link using the "Git Bash here" option.
+
     ![git-bash-capture](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-bash-capture.png)
-4. Type git clone in the Git Bash command page, then paste the URL you copied.
-   - ()screenshot of git clone
+
+
+4. Type "git clone" in the Git Bash command page, then paste the URL you copied.
+
+    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-clone-initial.png)
+
+
 5. Press Enter to create the local clone. 
-   - ()screenshot of git clone capture
+    
+    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-clone-capture.JPG)
+
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for additional details and more detailed explanation of the process.
 
@@ -107,9 +116,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Content
 
 * The text for the classes were copied from [Claphandies](https://claphandies.com/), [Aquababies](https://aquababies.ie/), [Littlekickers](https://www.littlekickers.ie/) and [imageswimming](https://www.imagineswimming.com/)
-* The logo was created using [canva](https://www.canva.com/)website
+* The logo was created using [canva](https://www.canva.com/) website
 * [Bootstrap4]: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-* Additionally, these websites were of great source of inspiration and solution whenever I encounter an error or just looking for a better way of presenting the codes:
+* Additionally, these websites contain great source of inspiration and solution whenever I encounter an error or just looking for a better way of presenting my idea:
   - [W3schools](https://www.w3schools.com/)
   - [Stackoverflow](https://stackoverflow.com/)
   - [Youtube](https://www.youtube.com/)
@@ -123,4 +132,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * My Mentor, Precious Ijege, for guidance and helpful insights
 * [Richard Wells](https://github.com/D0nni387) for hosting a call in creating a simple website [the-bath-co](https://github.com/D0nni387/the-bath-co) using Bootstrap4
-* And finally, to our daughter - Althea Gabrielle - my inspiration for this project and with-out the support ( emotional and psychological) of my wife - Angel - I wouldn't be able to overcome all my doubts.
+* And finally, to our daughter - Althea Gabrielle - my inspiration for this project and with-out the support ( emotional and psychological) of my wife - Angel - I wouldn't be able to overcome all my self-doubts.
