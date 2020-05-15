@@ -1,3 +1,5 @@
+
+
 # Angel's Haven
 
 To view the live version of the website please click [AngelsHaven](https://gideongannaban.github.io/Milestone-Project-1/index.html)
@@ -59,3 +61,65 @@ As a **parent or childminder**:
 - [Fontawesome](https://fontawesome.com/) - I used the font awesome icons for the social media, location and contact details
 - [Googlefonts](https://fonts.google.com/) - Used to style the fonts of the website 
 - [Favicon](https://favicon.io/) - Used to create the website icon 
+- [Trello](https://trello.com/) - Used as my project management tool
+
+# Testing 
+
+The website's responsive layout was tested using the following:
+* **Google Chrome Developer Tool** - This was the primary tool used to monitor the page responsiveness through different viewing platform like Desktop, mobile, Ipad and Ipad Pro
+* Manual test using **Samsung Note 10, Sony Z5 and Iphone 5** by friends and family members
+* Additonally the responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites
+* CSS and HMTL codes were tested using [validator.w3](https://validator.w3.org/)
+* And finally, with the help of CI slack Community through the guidance of fellow students, alumni and CI Instructors
+
+### Bug/Error Fixed
+ An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page the footer thus placing the footer close to the center of the page.
+ This was fixed by adding more content and margin thus pushing the footer section at the bottom of the page.
+
+ # Deployment
+ 
+#### This project was deployed to [Github Pages](https://github.com/gideongannaban/Milestone-Project-1) by following below procedure:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/gideongannaban/Milestone-Project-1)
+2. At the upper right of the Repository Page, locate the "Settings" Button.
+3. In the Settings Page, scroll down until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page should automatically refresh when you select the Master Branch.
+6. Once refreshed, scroll back to the "Github Pages" section to locate link for the deployed website.
+
+#### Making a Github Clone:
+
+1. In the [repository page](https://github.com/gideongannaban/Milestone-Project-1), click on the Clone or Download button ( right beside the Gitpod button).
+2. To clone the repository using HTTPS, copy the link in the "Clone with HTTPS" 
+3. Open Git Bash. 
+    * Make sure Git Bash App is downloaded
+    * Paste the Cloned link using the [Git Bash here]() option.
+4. Type git clone in the Git Bash command page, then paste the URL you copied.
+   - ()screenshot of git clone
+5. Press Enter to create the local clone. 
+   - ()screenshot of git clone capture
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for additional details and more detailed explanation of the process.
+
+# Credits
+
+## Content
+
+* The text for the classes were copied from [Claphandies](https://claphandies.com/), [Aquababies](https://aquababies.ie/), [Littlekickers](https://www.littlekickers.ie/) and [imageswimming](https://www.imagineswimming.com/)
+* The logo was created using [canva](https://www.canva.com/)website
+* [Bootstrap4]: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* Additionally, these websites were of great source of inspiration and solution whenever I encounter an error or just looking for a better way of presenting the codes:
+  - [W3schools](https://www.w3schools.com/)
+  - [Stackoverflow](https://stackoverflow.com/)
+  - [Youtube](https://www.youtube.com/)
+
+# Media
+
+* The photos used in this site were obtained from [Adobestock](https://stock.adobe.com/ph/), [pixabay](https://pixabay.com/), [pxhere](https://pxhere.com/), [unsplash](https://unsplash.com/) and [pexels](https://pixabay.com/)
+*  I used [Trello](https://trello.com/) to monitor my progress 
+
+# Acknowledgement
+
+* My Mentor, Precious Ijege, for guidance and helpful insights
+* [Richard Wells](https://github.com/D0nni387) for hosting a call in creating a simple website [the-bath-co](https://github.com/D0nni387/the-bath-co) using Bootstrap4
+* And finally, to our daughter - Althea Gabrielle - my inspiration for this project and with-out the support ( emotional and psychological) of my wife - Angel - I wouldn't be able to overcome all my doubts.
