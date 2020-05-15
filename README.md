@@ -1,4 +1,4 @@
-
+![responsive](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Capture.JPG)
 
 # Angel's Haven
 
@@ -93,7 +93,8 @@ The website's responsive layout was tested using the following:
 2. To clone the repository using HTTPS, copy the link in the "Clone with HTTPS" 
 3. Open Git Bash. 
     * Make sure Git Bash App is downloaded
-    * Paste the Cloned link using the [Git Bash here]() option.
+    * Paste the Cloned link using the "Git Bash here" option.
+    ![git-bash-capture](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-bash-capture.png)
 4. Type git clone in the Git Bash command page, then paste the URL you copied.
    - ()screenshot of git clone
 5. Press Enter to create the local clone. 
