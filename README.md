@@ -65,12 +65,23 @@ As a **parent or childminder**:
 
 # Testing 
 
-The website's responsive layout was tested using the following:
-* **Google Chrome Developer Tool** - This was the primary tool used to monitor the page responsiveness through different viewing platform like Desktop, mobile, Ipad and Ipad Pro
-* Manual test using **Samsung Note 10, Sony Z5 and Iphone 5** by friends and family members
-* Additonally the responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites
-* CSS and HMTL codes were tested using [validator.w3](https://validator.w3.org/)
-* And finally, with the help of CI slack Community through the guidance of fellow students, alumni and CI Instructors
+The W3C Markup Validator were used to validate every page of the project to ensure there were no syntax error in the project.
+
+* CSS Validator [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/CSS%20Validation.JPG)
+* HTML Validator:
+  - Index.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-index.JPG)
+  - Ourstory.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-ourstory.JPG)
+  - Swimming / Classroom / Ballgamges.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-swimming-classroom-ballgames.JPG)
+  - Contact.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-swimming-classroom-ballgames.JPG)
+
+**Google Chrome Developer Tool** was the primary tool used to monitor the page responsiveness through different viewing platform like Desktop, mobile, Ipad and Ipad Pro.
+Testing was also done using different browsers to ensure consistency on all platforms.
+
+For complete testing result please click [here](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/Responsiveness%20Matrix.pdf)
+ 
+Manual test using **Samsung Note 10, Sony Z5 and Iphone 5** by friends and family members
+
+Additonally the responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites
 
 ### Bug/Error Fixed
  An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page and the footer thus placing the footer close to the center of the page.
