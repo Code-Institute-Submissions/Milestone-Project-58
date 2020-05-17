@@ -49,8 +49,8 @@ body {
     color: #007bff;
 }
 
-.navbar-nav .dropdown-menu {    
-    background-color: f8f9fa;
+.dropdown-menu {
+    border: 0px;
 }
 
 /*---home page --**/
@@ -126,6 +126,10 @@ h2 {
     color: #d39e00;
 }
 
+.classroom-content {
+    margin-bottom: 30px;
+}
+
 .ballgame-header {
     color: #007bff;
 }
@@ -137,6 +141,7 @@ h2 {
     width: 90%;
     border-radius: 30px;
     padding: 20px;    
+    margin-top: 30px;   
 }
 
 #overview {
@@ -166,6 +171,7 @@ hr {
 
 .block-divider--blue {
     background-color: #0062cc9e;
+
 }
 
 .block-divider--red {
@@ -173,9 +179,12 @@ hr {
 }
 
 .block-divider--yellow {
-    background-color: #ffff00d6;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    background-color: #ffff00d6;  
+}
+
+.block-divider-classes {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /**-- Team --**/
@@ -369,7 +378,8 @@ footer i {
 /**--Ending motto--**/
 
 .ending-motto {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     padding-top: 40px;
+    margin-top: 20px;
 }
