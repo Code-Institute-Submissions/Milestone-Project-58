@@ -1,4 +1,4 @@
-![responsive](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Capture.JPG)
+![responsive](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/Capture.JPG)
 
 # Angel's Haven
 
@@ -30,9 +30,9 @@ As a **parent or childminder**:
 # Wireframe
  I used Balsamiq Wireframe 4 to create the framework for the website. There have been several modifications as the project progressed but below are the final outputs:
 
- * Desktop [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Desktop%20View.pdf)
- * Ipad [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Ipad%20View.pdf)
- * Mobile [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Mobile%20View.pdf)
+ * Desktop [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Wireframes/Desktop%20View.pdf)
+ * Ipad [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Wireframes/Ipad%20View.pdf)
+ * Mobile [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Wireframes/Mobile%20View.pdf)
 
 # Features
 
@@ -58,7 +58,6 @@ As a **parent or childminder**:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - To create the structure and content of the page
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style the website
 - [Bootstrap4](https://getbootstrap.com/)- This framework was used to create a responsive mobile-first design and include functioning components.
-- [Javascript](https://en.wikipedia.org/wiki/JavaScript) - included with the bootstrap libraries to give components functionality
 - [Fontawesome](https://fontawesome.com/) - I used the font awesome icons for the social media, location and contact details
 - [Googlefonts](https://fonts.google.com/) - Used to style the fonts of the website 
 - [Favicon](https://favicon.io/) - Used to create the website icon 
@@ -96,17 +95,17 @@ The website's responsive layout was tested using the following:
     * Make sure Git Bash App is downloaded in your laptop/desktop
     * Paste the Cloned link using the "Git Bash here" option.
 
-    ![git-bash-capture](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-bash-capture.png)
+    ![git-bash-capture](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/git-bash-capture.png)
 
 
 4. Type "git clone" in the Git Bash command page, then paste the URL you copied.
 
-    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-clone-initial.png)
+    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/git-clone-initial.png)
 
 
 5. Press Enter to create the local clone. 
     
-    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/git-clone-capture.JPG)
+    ![git-clone](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/git-clone-capture.JPG)
 
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for additional details and more detailed explanation of the process.
@@ -117,7 +116,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * The text for the classes were copied from [Claphandies](https://claphandies.com/), [Aquababies](https://aquababies.ie/), [Littlekickers](https://www.littlekickers.ie/) and [imageswimming](https://www.imagineswimming.com/)
 * The logo was created using [canva](https://www.canva.com/) website
-* [Bootstrap4]: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* [Bootstrap4](https://getbootstrap.com/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 * Additionally, these websites contain great source of inspiration and solution whenever I encounter an error or just looking for a better way of presenting my idea:
   - [W3schools](https://www.w3schools.com/)
   - [Stackoverflow](https://stackoverflow.com/)
@@ -130,6 +129,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 # Acknowledgement
 
-* My Mentor, Precious Ijege, for guidance and helpful insights
+* My Mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), for guidance and helpful insights
 * [Richard Wells](https://github.com/D0nni387) for hosting a call in creating a simple website [the-bath-co](https://github.com/D0nni387/the-bath-co) using Bootstrap4
 * And finally, to our daughter - Althea Gabrielle - my inspiration for this project and with-out the support ( emotional and psychological) of my wife - Angel - I wouldn't be able to overcome all my self-doubts.
