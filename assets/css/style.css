@@ -174,6 +174,8 @@ hr {
 
 .block-divider--yellow {
     background-color: #ffff00d6;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /**-- Team --**/
@@ -269,6 +271,11 @@ form {
     color: #007bff;
 }
 
+.map {
+    height: 300px;
+    margin-bottom: 40px;
+}
+
 .address-map {
     text-align: left;
     border-color: #e9ecef94;
@@ -283,7 +290,7 @@ form {
 }
 
 .btn-danger {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .comment-header {
