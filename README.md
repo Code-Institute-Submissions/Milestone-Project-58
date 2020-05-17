@@ -27,7 +27,7 @@ As a **parent or childminder**:
 
  All through out the pages we've used 3 colors ( blue, yellow and red) and these were designated for each class offered. 
 
-# Wireframe
+# Wireframes
  I used Balsamiq Wireframe 4 to create the framework for the website. There have been several modifications as the project progressed but below are the final outputs:
 
  * Desktop [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Wireframes/Desktop%20View.pdf)
@@ -45,7 +45,7 @@ As a **parent or childminder**:
 - **Ballgames Page** - The purpose of this page is to give information on the ballgames classes, schedule of classes and price
 - **Contact Us Page** - This page will allow the user to send inquiry or comment to the management team. Additionally they will see the location, contact info and location map.
 
-### Future Feature:
+### Future Features:
 
   In addition to existing features, my future plans are as follow:
 -	Add a page where fellow parents can volunteer on either of the classes provided skills are matching with the requirement. 
@@ -54,7 +54,7 @@ As a **parent or childminder**:
 -	Information about the corona-virus situation and what is being done to prevent the pandemic
 -	Add corporate social responsibility page that shows how we give back to the community
 
-# Technology used
+# Technologies Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - To create the structure and content of the page
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style the website
 - [Bootstrap4](https://getbootstrap.com/)- This framework was used to create a responsive mobile-first design and include functioning components.
