@@ -54,11 +54,7 @@ As a **parent or childminder**:
 -	Information about the corona-virus situation and what is being done to prevent the pandemic
 -	Add corporate social responsibility page that shows how we give back to the community
 
-<<<<<<< HEAD
 # Technologies used
-=======
-# Technologies Used
->>>>>>> e66217693884aaced2de69e7687501890bed29ec
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - To create the structure and content of the page
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style the website
 - [Bootstrap4](https://getbootstrap.com/)- This framework was used to create a responsive mobile-first design and include functioning components.
@@ -69,7 +65,6 @@ As a **parent or childminder**:
 
 # Testings 
 
-<<<<<<< HEAD
 ### Code Validation:
 
 The W3C Markup Validator were used to validate every page to ensure there were no syntax error in the project. Below are the results of the testing:
@@ -109,25 +104,6 @@ was all over the place.
 
 * Manual testing was done using **Samsung Note 10, Sony Z5 and Iphone 5** by family members. 
 * The responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites.
-=======
-The W3C Markup Validator were used to validate every page of the project to ensure there were no syntax error in the project.
-
-* CSS Validator [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/CSS%20Validation.JPG)
-* HTML Validator:
-  - Index.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-index.JPG)
-  - Ourstory.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-ourstory.JPG)
-  - Swimming / Classroom / Ballgamges.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-swimming-classroom-ballgames.JPG)
-  - Contact.html [Result](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-swimming-classroom-ballgames.JPG)
-
-**Google Chrome Developer Tool** was the primary tool used to monitor the page responsiveness through different viewing platform like Desktop, mobile, Ipad and Ipad Pro.
-Testing was also done using different browsers to ensure consistency on all platforms.
-
-For complete testing result please click [here](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/Responsiveness%20Matrix.pdf)
- 
-Manual test using **Samsung Note 10, Sony Z5 and Iphone 5** by friends and family members
-
-Additonally the responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites
->>>>>>> e66217693884aaced2de69e7687501890bed29ec
 
 ### Bug/Error Fixed
  An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page and the footer thus placing the footer close to the center of the page.
