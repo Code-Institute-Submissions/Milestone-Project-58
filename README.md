@@ -27,7 +27,7 @@ As a **parent or childminder**:
 
  All through out the pages we've used 3 colors ( blue, yellow and red) and these were designated for each class offered. 
 
-# Wireframe
+# Wireframes
  I used Balsamiq Wireframe 4 to create the framework for the website. There have been several modifications as the project progressed but below are the final outputs:
 
  * Desktop [View](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Wireframes/Desktop%20View.pdf)
@@ -45,7 +45,7 @@ As a **parent or childminder**:
 - **Ballgames Page** - The purpose of this page is to give information on the ballgames classes, schedule of classes and price
 - **Contact Us Page** - This page will allow the user to send inquiry or comment to the management team. Additionally they will see the location, contact info and location map.
 
-### Future Feature:
+### Future Features:
 
   In addition to existing features, my future plans are as follow:
 -	Add a page where fellow parents can volunteer on either of the classes provided skills are matching with the requirement. 
@@ -54,7 +54,7 @@ As a **parent or childminder**:
 -	Information about the corona-virus situation and what is being done to prevent the pandemic
 -	Add corporate social responsibility page that shows how we give back to the community
 
-# Technology used
+# Technologies used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - To create the structure and content of the page
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style the website
 - [Bootstrap4](https://getbootstrap.com/)- This framework was used to create a responsive mobile-first design and include functioning components.
@@ -63,14 +63,47 @@ As a **parent or childminder**:
 - [Favicon](https://favicon.io/) - Used to create the website icon 
 - [Trello](https://trello.com/) - Used as my project management tool
 
-# Testing 
+# Testings 
 
-The website's responsive layout was tested using the following:
-* **Google Chrome Developer Tool** - This was the primary tool used to monitor the page responsiveness through different viewing platform like Desktop, mobile, Ipad and Ipad Pro
-* Manual test using **Samsung Note 10, Sony Z5 and Iphone 5** by friends and family members
-* Additonally the responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites
-* CSS and HMTL codes were tested using [validator.w3](https://validator.w3.org/)
-* And finally, with the help of CI slack Community through the guidance of fellow students, alumni and CI Instructors
+### Code Validation:
+
+The W3C Markup Validator were used to validate every page to ensure there were no syntax error in the project. Below are the results of the testing:
+
+* [CSS](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/CSS%20Validation.JPG)
+* [index.html](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-index.JPG)
+* [ourstory.html](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-ourstory.JPG)
+* [swimming/classroom/football.html](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-swimming-classroom-ballgames.JPG)
+* [contact.html](https://github.com/gideongannaban/Milestone-Project-1/blob/master/validation/html-contact.JPG)
+
+
+### Page Responsiveness Testing
+
+The primary tool used to monitor the page responsiveness was **Google Chrome Developer Tool**. The tests were done using the following platforms:
+* Samsung Note 10
+* Samsung S9+
+* Iphone 5/SE
+* Iphone 6/7/8
+* Ipad Pro
+* Laptop 1024px
+* Laptop >1200px
+
+The summary of the tests can be accessed [here](https://github.com/gideongannaban/Milestone-Project-1/blob/master/Readme%20files/Responsiveness%20Matrix.pdf).
+
+### Browser Responsiveness Testing
+
+Browser testing was done using below browsers to ensure website can be viewed for all users. The website is responsive on all browsers except for the IE, the entire sites' margin and spacing
+was all over the place. 
+
+* Chrome
+* Firefox
+* Edge
+* Safari
+* IE
+
+### Additional Testing
+
+* Manual testing was done using **Samsung Note 10, Sony Z5 and Iphone 5** by family members. 
+* The responsive design was tested using [Responsinator](http://www.responsinator.com/) and [ami.responsivedesign.is](http://ami.responsivedesign.is/) websites.
 
 ### Bug/Error Fixed
  An error was detected when viewing the page using an Ipad Pro through the Developer tool. There was an ample white space between the bottom of the page and the footer thus placing the footer close to the center of the page.
